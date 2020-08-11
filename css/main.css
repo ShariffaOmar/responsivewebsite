@@ -1,0 +1,48 @@
+body{
+	background-color: #ccc;
+	color: #222;
+	font-family: arial;
+}
+.cont{
+	max-width: 1000px;
+	min-height: 200;
+	margin: 0 auto;
+	background-color:#fff; 
+}
+
+.one{
+	background-color: purple;
+	min-height: 100px;
+	padding: 20px;
+}
+.two{
+	background-color: cyan;
+	min-height: 100px;
+	padding: 20px;
+}
+.three{
+	background-color: blue;
+	min-height: 100px;
+	padding: 20px;
+}
+.four{
+	background-color: grey;
+	min-height: 100px;
+	padding: 20px;
+}
+.five{
+	background-color:maroon ;
+	min-height: 100px;
+	padding: 20px;
+}
+.my-panel{
+	width:30%;
+	float:left;
+	padding:2.5%;
+}
+@media screen and(max-width: 60px;){
+	.my panel{
+     width: 98%;
+     padding:1%;
+	}
+}
